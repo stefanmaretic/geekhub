@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { Router } from '@reach/router';
 
-import About from '../pages/about';
-import Home from '../pages/home';
-import Navbar from './navbar';
+import { About } from '../pages/about';
+import { Home } from '../pages/home';
+import { Navbar } from './navbar';
 
-const App: React.FC = () => {
+export const App: React.FC = () => {
   return (
     <>
       <Navbar />
@@ -16,5 +16,3 @@ const App: React.FC = () => {
     </>
   );
 };
-
-export default App;

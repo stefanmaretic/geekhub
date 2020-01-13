@@ -3,6 +3,6 @@ import { RouteComponentProps } from '@reach/router';
 
 interface Props extends RouteComponentProps {}
 
-export default function About(props: Props) {
+export function About(props: Props) {
   return <div>About</div>;
 }

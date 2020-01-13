@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { Box, Flex } from 'rebass';
 
-import NavLink from './nav-link';
+import { NavLink } from './nav-link';
 
-export default function Navbar() {
+export function Navbar() {
   return (
     <Flex px={2} py={3} color="white" bg="black" alignItems="center">
       {/* Left side */}

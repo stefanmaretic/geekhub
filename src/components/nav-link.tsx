@@ -7,7 +7,7 @@ interface Props {
   children: React.ReactNode;
 }
 
-export default function NavLink({ to, children, ...props }: Props) {
+export function NavLink({ to, children, ...props }: Props) {
   return (
     <Link to={to} {...props}>
       <Text
